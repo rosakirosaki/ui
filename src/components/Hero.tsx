@@ -6,7 +6,7 @@ export function Hero() {
       {/* Content */}
       <div className="relative z-10 text-center px-6 max-w-5xl mx-auto">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-8 leading-tight">
-          Solutions For Brands And Creators
+          Solutions For Artists and Creators
         </h1>
         
         <p className="text-xl md:text-2xl text-white mb-12 leading-relaxed max-w-3xl mx-auto">
