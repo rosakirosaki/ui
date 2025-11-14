@@ -3,11 +3,11 @@ import { Play } from 'lucide-react';
 
 export const CaseStudies = () => {
   return (
-    <section className="py-20 bg-black text-white">
+    <section className="py-20 bg-white text-black">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white">Case Studies</h2>
-          <p className="text-xl text-white max-w-4xl mx-auto">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-black">Case Studies</h2>
+          <p className="text-xl text-black max-w-4xl mx-auto">
             Why is using high quality background music in your shorts important? Let's take a look at some of our
             creators who use our music on their shorts.
           </p>
@@ -41,20 +41,20 @@ export const CaseStudies = () => {
         </div>
 
         <div className="text-center mb-16">
-          <p className="text-xl text-white max-w-4xl mx-auto mb-8">
+          <p className="text-xl text-black max-w-4xl mx-auto mb-8">
             These creators were posting videos without music or using other people's music.
           </p>
-          <p className="text-xl text-white max-w-4xl mx-auto mb-8">
-            Come to find out they quickly realized that using custom made music not only <span className="text-white font-semibold">boosted their reach, overall shorts quality, mitigated risks relating copyrights from using other's music, and also earned them a good amount of new revenue on the side.</span>
+          <p className="text-xl text-black max-w-4xl mx-auto mb-8">
+            Come to find out they quickly realized that using custom made music not only <span className="text-black font-semibold">boosted their reach, overall shorts quality, mitigated risks relating copyrights from using other's music, and also earned them a good amount of new revenue on the side.</span>
           </p>
-          <p className="text-2xl font-bold text-white">
+          <p className="text-2xl font-bold text-black">
             The benefits are too good to ignore.
           </p>
         </div>
 
         {/* Now Let's Dive Deeper Section */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-8 text-white">Now Let's Dive Deeper..</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-8 text-black">Now Let's Dive Deeper..</h2>
           <p className="text-xl text-white max-w-4xl mx-auto">
             Shawn (another creator in our catalog) was your typical Youtube shorts.
           </p>
