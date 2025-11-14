@@ -88,7 +88,7 @@ export function FAQ() {
               {openItems.includes(index) && (
                 <div className="px-8 pb-6">
                   <div className="border-t border-gray-700 pt-6">
-                    <p className="text-gray-300 leading-relaxed">
+                    <p className="text-white leading-relaxed">
                       {item.answer}
                     </p>
                   </div>

@@ -14,29 +14,29 @@ export function Comparison() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-5xl mx-auto">
           {/* Other Music Libraries */}
           <div className="bg-gray-900 rounded-3xl p-8 border border-gray-700">
-            <h3 className="text-2xl font-bold text-gray-400 mb-8 text-center">
+            <h3 className="text-2xl font-bold text-white mb-8 text-center">
               Other Music Libraries
             </h3>
             
             <div className="space-y-6">
               <div className="flex items-center space-x-4">
                 <X className="w-6 h-6 text-red-500 flex-shrink-0" />
-                <span className="text-gray-300 text-lg">Low quality music</span>
+                <span className="text-white text-lg">Low quality music</span>
               </div>
               
               <div className="flex items-center space-x-4">
                 <X className="w-6 h-6 text-red-500 flex-shrink-0" />
-                <span className="text-gray-300 text-lg">Low Music Revenue</span>
+                <span className="text-white text-lg">Low Music Revenue</span>
               </div>
               
               <div className="flex items-center space-x-4">
                 <X className="w-6 h-6 text-red-500 flex-shrink-0" />
-                <span className="text-gray-300 text-lg">Outdated approach to composition</span>
+                <span className="text-white text-lg">Outdated approach to composition</span>
               </div>
               
               <div className="flex items-center space-x-4">
                 <X className="w-6 h-6 text-red-500 flex-shrink-0" />
-                <span className="text-gray-300 text-lg">Expensive licensing agreements</span>
+                <span className="text-white text-lg">Expensive licensing agreements</span>
               </div>
             </div>
           </div>

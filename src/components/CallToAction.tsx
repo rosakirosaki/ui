@@ -18,7 +18,7 @@ export function CallToAction() {
           </button>
         </div>
         
-        <p className="text-gray-400 text-sm mt-8 text-center">
+        <p className="text-black text-sm mt-8 text-center">
           © 2025 MediaTiger Music Records. All Rights Reserved.
         </p>
       </div>

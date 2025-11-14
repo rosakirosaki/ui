@@ -9,7 +9,7 @@ export function Partnership() {
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
             How Our Partnership Works
           </h2>
-          <p className="text-xl text-gray-400 max-w-2xl mx-auto">
+          <p className="text-xl text-white max-w-2xl mx-auto">
             Get Started in 3 Simple Steps.
           </p>
         </div>
@@ -27,10 +27,10 @@ export function Partnership() {
             <h3 className="text-xl font-bold text-white mb-4">
               1. We Create Your Sound
             </h3>
-            <p className="text-gray-300 mb-6 leading-relaxed">
+            <p className="text-white mb-6 leading-relaxed">
               Custom music will be made by our in house music team, creating copyright-safe tracks for you.
             </p>
-            <p className="text-gray-300 leading-relaxed">
+            <p className="text-white leading-relaxed">
               We cover 100% of the costs of music production and registration costs, along with licensing. There is zero cost on your end. This is completely free of charge.
             </p>
           </div>
@@ -47,7 +47,7 @@ export function Partnership() {
             <h3 className="text-xl font-bold text-white mb-4">
               2. Add Music as Background
             </h3>
-            <p className="text-gray-300 leading-relaxed">
+            <p className="text-white leading-relaxed">
               You can use our already produced tracks, or your custom produced tracks on Youtube and add it to your videos through the Youtube App when uploading.
             </p>
           </div>
@@ -64,7 +64,7 @@ export function Partnership() {
             <h3 className="text-xl font-bold text-white mb-4">
               3. Generate New Revenue
             </h3>
-            <p className="text-gray-300 leading-relaxed">
+            <p className="text-white leading-relaxed">
               Start to reap the rewards immediately as your overall shorts quality will be optimized, and you will start to generate music revenue from your shorts.
             </p>
           </div>
