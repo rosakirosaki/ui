@@ -15,7 +15,6 @@ export function Header() {
         
         {/* Navigation */}
         <nav className="hidden md:flex items-center space-x-6">
-          <a href="#" className="text-sm text-white hover:text-gray-300 transition-colors">Home</a>
           <a href="#case-studies" className="text-sm text-white hover:text-gray-300 transition-colors">Creators</a>
           <a href="#artists" className="text-sm text-white hover:text-gray-300 transition-colors">Artists</a>
           <a href="#partnership" className="text-sm text-white hover:text-gray-300 transition-colors">Benefits</a>
