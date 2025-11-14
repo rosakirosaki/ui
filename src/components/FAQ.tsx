@@ -57,10 +57,10 @@ export function FAQ() {
   };
 
   return (
-    <section className="bg-white py-20 px-6">
+    <section className="bg-black py-20 px-6">
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-black mb-6">
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
             Frequently Asked Questions
           </h2>
         </div>
@@ -69,26 +69,26 @@ export function FAQ() {
           {faqData.map((item, index) => (
             <div 
               key={index}
-              className="bg-gray-100 rounded-2xl border border-gray-300 overflow-hidden"
+              className="bg-gray-900 rounded-2xl border border-gray-700 overflow-hidden"
             >
               <button
                 onClick={() => toggleItem(index)}
-                className="w-full px-8 py-6 text-left flex items-center justify-between hover:bg-gray-200 transition-colors"
+                className="w-full px-8 py-6 text-left flex items-center justify-between hover:bg-gray-800 transition-colors"
               >
-                <h3 className="text-xl font-semibold text-black pr-4">
+                <h3 className="text-xl font-semibold text-white pr-4">
                   {item.question}
                 </h3>
                 {openItems.includes(index) ? (
-                  <Minus className="w-6 h-6 text-black flex-shrink-0" />
+                  <Minus className="w-6 h-6 text-white flex-shrink-0" />
                 ) : (
-                  <Plus className="w-6 h-6 text-black flex-shrink-0" />
+                  <Plus className="w-6 h-6 text-white flex-shrink-0" />
                 )}
               </button>
               
               {openItems.includes(index) && (
                 <div className="px-8 pb-6">
-                  <div className="border-t border-gray-300 pt-6">
-                    <p className="text-gray-700 leading-relaxed">
+                  <div className="border-t border-gray-700 pt-6">
+                    <p className="text-gray-300 leading-relaxed">
                       {item.answer}
                     </p>
                   </div>

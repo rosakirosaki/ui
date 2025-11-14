@@ -3,7 +3,7 @@ import React from 'react';
 export function Header() {
   return (
     <header className="fixed top-0 w-full z-50 flex justify-center pt-4">
-      <div className="bg-white/90 backdrop-blur-sm border border-gray-200 rounded-full px-8 py-4 flex items-center space-x-6">
+      <div className="bg-gray-900/90 backdrop-blur-sm border border-gray-700 rounded-full px-8 py-4 flex items-center space-x-6">
         {/* Logo */}
         <div className="flex items-center space-x-2">
           <img 
@@ -15,14 +15,14 @@ export function Header() {
         
         {/* Navigation */}
         <nav className="hidden md:flex items-center space-x-6">
-          <a href="#" className="text-sm text-black hover:text-black transition-colors">Home</a>
-          <a href="#case-studies" className="text-sm text-black hover:text-black transition-colors">Creators</a>
-          <a href="#partnership" className="text-sm text-black hover:text-black transition-colors">Benefits</a>
+          <a href="#" className="text-sm text-white hover:text-gray-300 transition-colors">Home</a>
+          <a href="#case-studies" className="text-sm text-white hover:text-gray-300 transition-colors">Creators</a>
+          <a href="#partnership" className="text-sm text-white hover:text-gray-300 transition-colors">Benefits</a>
         </nav>
         
         {/* Right side buttons */}
         <div className="flex items-center space-x-3">
-          <button className="px-6 py-2 text-sm rounded-full bg-black text-white hover:bg-gray-800 transition-all duration-200">
+          <button className="px-6 py-2 text-sm rounded-full bg-white text-black hover:bg-gray-200 transition-all duration-200">
             Sign Up
           </button>
         </div>
